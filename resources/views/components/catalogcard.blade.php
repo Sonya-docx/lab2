@@ -4,7 +4,7 @@
     <article class="catalog-card {{ $item['id'] === 1 ? 'catalog-card--featured' : '' }} book-card">
         <a class="book-card__media atlas-frame" href="{{ route('catalog.show', ['slug' => $item['slug']]) }}">
             <img class="catalog-card__image atlas-frame__image atlas-frame__image--{{ ['first', 'second', 'third'][($item['id'] - 1) % 3] }}"
-                 src="{{ asset('images/catalog-atlas.png') }}" alt="Книжкове видання: {{ $item['title'] }}" width="1774" height="887" loading="lazy">
+                 src="{{ asset('images/catalog-books.png') }}" alt="Книжкове видання: {{ $item['title'] }}" width="1774" height="887" loading="lazy">
             <span class="book-card__badge">{{ $item['operation'] }}</span>
         </a>
         <div class="book-card__body">
@@ -21,7 +21,7 @@
     <article class="catalog-card service-card {{ $item['id'] === 1 ? 'catalog-card--featured' : '' }}">
         <div class="service-card__media atlas-frame">
             <img class="catalog-card__image atlas-frame__image atlas-frame__image--{{ ['first', 'second', 'third'][($item['id'] - 1) % 3] }}"
-                 src="{{ asset('images/catalog-atlas.png') }}" alt="Книжкове видання: {{ $item['title'] }}" width="1774" height="887" loading="lazy">
+                 src="{{ asset('images/catalog-books.png') }}" alt="Книжкове видання: {{ $item['title'] }}" width="1774" height="887" loading="lazy">
             <span class="service-card__status">{{ $item['operation'] }}</span>
         </div>
         <div class="service-card__content">

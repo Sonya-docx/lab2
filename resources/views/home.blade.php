@@ -41,7 +41,7 @@
     @if (isset($items[0]))
         <section class="reading-note" id="featured" aria-labelledby="book-pick-title">
             <div class="atlas-frame reading-note__media">
-                <img class="atlas-frame__image atlas-frame__image--first" src="{{ asset('images/catalog-atlas.png') }}" alt="Добірка книжок для обміну та оренди" width="1774" height="887" loading="lazy">
+                <img class="atlas-frame__image atlas-frame__image--first" src="{{ asset('images/catalog-books.png') }}" alt="Добірка книжок для обміну та оренди" width="1774" height="887" loading="lazy">
             </div>
             <div class="reading-note__content">
                 <p class="eyebrow">Рекомендація спільноти</p>

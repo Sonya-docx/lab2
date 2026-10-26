@@ -8,7 +8,7 @@
     <article class="listing">
         <div class="listing__visual atlas-frame">
             <img class="listing__image atlas-frame__image atlas-frame__image--first"
-                 src="{{ asset('images/catalog-atlas.png') }}"
+                 src="{{ asset('images/catalog-books.png') }}"
                  alt="Книжкове видання: {{ $item['title'] }}" width="1774" height="887" fetchpriority="high">
             <span class="listing__stamp">{{ $item['operation'] }}</span>
         </div>
